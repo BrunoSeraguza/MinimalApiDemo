@@ -61,13 +61,12 @@ public class Program
 
             if ( result > 0)
             {
-               return Results.Created($"/fornecedores/{fornecedor.Id}", fornecedor);
+                Results.Created($"/fornecedores/{fornecedor.Id}", fornecedor);
             }
             else
             {
-               return Results.BadRequest("Houve um erro ao adicionar um fornecedor");
+                Results.BadRequest("Houve um erro ao adicionar um fornecedor");
             }
-            
                 
             //return result > 0
             //? //Results.Created($"/fornecedores/{fornecedor.Id}", fornecedor) 
