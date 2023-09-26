@@ -11,8 +11,8 @@ namespace MinimalApiDemo.Models
 
         public enum Documento
         {
-            Cpf = 1,
-            Cnpj =2 
+            Cpf, 
+            Cnpj  
         }
     }
 }
